@@ -1,0 +1,123 @@
+/* General Layout */
+.dashboard-container {
+    display: flex;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  /* Sidebar Styling */
+  .sidebar {
+    width: 240px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    position: fixed;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sidebar-logo {
+    width: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-toggle {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .sidebar-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar-links li {
+    padding: 10px 0;
+    cursor: pointer;
+  }
+  
+  /* Content Area Styling */
+  .content {
+    margin-left: 240px;
+    padding: 20px;
+    width: calc(100% - 240px); /* Adjust width according to sidebar */
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .branch-select,
+  .date-picker {
+    display: flex;
+    align-items: center;
+  }
+  
+  select,
+  input[type="date"] {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Cards Section */
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    background-color: #f4f4f4; /* Light gray background for the cards */
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #000; /* Black text color */
+    margin-bottom: 20px;
+  }
+  
+  .card:hover {
+    background-color: #e4e4e4;
+  }
+  
+  .card-1 {
+    background-color: #ffcccc; /* Light red */
+  }
+  
+  .card-2 {
+    background-color: #ccffcc; /* Light green */
+  }
+  
+  .card-3 {
+    background-color: #cce5ff; /* Light blue */
+  }
+  
+  .card-4 {
+    background-color: #ffcc99; /* Light orange */
+  }
+  
+  .card-5 {
+    background-color: #d3d3d3; /* Light grey */
+  }
+  
+  .card-6 {
+    background-color: #ffccff; /* Light pink */
+  }
+  
